@@ -2,6 +2,7 @@ import { useState , useEffect} from 'react'
 import Header from './components/Header/Header'
 import Test from './components/Test/Test'
 import Demo from './components/Demo/Demo'
+import Counter from './components/Counter/Counter'
 import './App.css'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Header />
       <Test color="red" name={name} handlNameChange={handlNameChange}/>
       <Demo />
+      <Counter />
     </>
   )
 }
