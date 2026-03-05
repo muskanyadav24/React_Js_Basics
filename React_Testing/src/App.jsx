@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import Test from './components/Test/Test'
 import Demo from './components/Demo/Demo'
 import Counter from './components/Counter/Counter'
+import Controll from './components/Controlle/Controlle'
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   const [name, setName ] = useState("Miku");
 
   const handlNameChange = () => {
-    setName("muku24");
+    setName("miku24");
   }
 
   useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
       <Test color="red" name={name} handlNameChange={handlNameChange}/>
       <Demo />
       <Counter />
+      <Controll />
     </>
   )
 }
