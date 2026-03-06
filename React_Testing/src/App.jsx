@@ -4,6 +4,7 @@ import Test from './components/Test/Test'
 import Demo from './components/Demo/Demo'
 import Counter from './components/Counter/Counter'
 import Controll from './components/Controlle/Controlle'
+import Register from './components/Register/Register'
 import './App.css'
 
 function App() {
@@ -37,12 +38,28 @@ function App() {
 
   return (
     <>
+      <Register />
       <Header />
       <Test color="red" name={name} handlNameChange={handlNameChange}/>
       <Demo />
       <Counter />
       <Controll />
     </>
+
+    // const [isRegistered, setIsRegistered] = useState(false);
+    // <>
+    //   {isRegistered ? (
+    //     <>
+    //       <Header />
+    //       <Test color="red" />
+    //       <Demo />
+    //       <Counter />
+    //       <Controll />
+    //     </>
+    //   ) : (
+    //     <Register setIsRegistered={setIsRegistered} />
+    //   )}
+    // </>
   )
 }
 
