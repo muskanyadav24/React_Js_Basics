@@ -33,7 +33,8 @@ const Post = () => {
                     </div>
                     <div className="actions">
                         <div className="left">
-                            <p>#</p>
+                            <i class="fa-regular fa-heart"></i>
+                            {/* <p>#</p> */}
                             <p>#</p>
                             <p>#</p>
                         </div>
