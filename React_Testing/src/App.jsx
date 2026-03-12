@@ -5,6 +5,7 @@ import Demo from './components/Demo/Demo'
 import Counter from './components/Counter/Counter'
 import Controll from './components/Controlle/Controlle'
 import Register from './components/Register/Register'
+import Post from './components/Post/Post'
 import './App.css'
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <Demo />
       <Counter />
       <Controll />
+      <Post />
     </>
 
     // const [isRegistered, setIsRegistered] = useState(false);
